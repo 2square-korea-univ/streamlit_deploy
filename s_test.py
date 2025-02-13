@@ -18,7 +18,3 @@ fig, ax = plt.subplots()
 ax.plot([1, 2, 3], [1, 4, 2])
 st.write("### Matplotlib 그래프")
 st.pyplot(fig)
-
-# 4. 이미지 출력
-st.write("### 이미지")
-st.image("https://streamlit.io/images/brand/streamlit-logo-horizontal.svg", width=300)
